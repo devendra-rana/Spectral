@@ -1,0 +1,12 @@
+name: Spectral
+type: theme
+description: 'A Responsive Drupal Theme'
+core_version_requirement: ^9 || ^10
+libraries:
+  - Spectral/global-styling
+base theme: false
+regions:
+  header: 'Header'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  footer: 'Footer'
